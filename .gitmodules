@@ -1,0 +1,6 @@
+[submodule "lib/sockpp"]
+	path = lib/sockpp
+	url = https://github.com/fpagliughi/sockpp.git
+[submodule "lib/DoIP-Lib"]
+	path = lib/DoIP-Lib
+	url = https://github.com/langroodi/DoIP-Lib.git
