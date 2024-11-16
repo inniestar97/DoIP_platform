@@ -4,3 +4,6 @@
 [submodule "lib/DoIP-Lib"]
 	path = lib/DoIP-Lib
 	url = https://github.com/langroodi/DoIP-Lib.git
+[submodule "lib/spdlog"]
+	path = lib/spdlog
+	url = https://github.com/gabime/spdlog.git
