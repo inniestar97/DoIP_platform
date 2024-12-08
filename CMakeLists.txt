@@ -11,7 +11,9 @@ set(sockpp_DIR lib/sockpp)
 set(doip_lib_DIR lib/DoIP-Lib)
 set(spdlog_DIR lib/spdlog)
 
-set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build all libraies as static")
+# set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build all libraies as static")
+
+option(build_tests "Build all the test of DoIP-Lib" OFF)
 
 add_subdirectory(${doip_lib_DIR})
 add_subdirectory(${sockpp_DIR})
